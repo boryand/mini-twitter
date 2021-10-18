@@ -39,6 +39,30 @@
   }
 }
 
+.appcontainer {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: lightcyan;
+}
+
+.leftcontainer {
+  width: 20%;
+
+}
+
+.middlecontainer {
+  width: 50%;
+
+
+}
+
+.rightcontainer {
+  width: 30%;
+
+}
+
 .articleDIV {
   margin-top: 20px;
   background-color: lightblue;
@@ -58,7 +82,7 @@
 .logo {
   height: 100px;
   width: auto;
-  margin-left: 50px;
+
   margin-top: 20px;
 
 }
@@ -81,4 +105,28 @@
   padding: 50px;
   font-size: 1.2rem;
 
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 50px;
+
+
+}
+
+.mssg {
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: column ;
+  align-content: center;
+  margin-top: 100px;
+}
+
+.mssg1 {
+
+ background-color: cornflowerblue
+
+  
 }

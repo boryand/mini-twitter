@@ -14,10 +14,13 @@ function Articles() {
 
   return (
     <div className="articleDIVparent">
+
+
+
       {messages &&
         messages.map((message, index) => (
           <div className="articleDIV" key={index}>
-            <Link to={`/${message._id}`}>
+            <Link to={`/messages/${message._id}`}>
               {" "}
               <h5> Tweet </h5>{" "}
             </Link>

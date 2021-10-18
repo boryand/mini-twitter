@@ -1,15 +1,13 @@
-import React from 'react';
-import Search from './Search';
-import RandomPost from './RandomPost';
-import './RightPane.css';
+// import React from 'react';
+// import Search from './Search';
+// import './RightPane.css';
 
-function RightPane() {
-  return (
-    <>
-      <Search />
-      <RandomPost />
-    </>
-  )
-}
+// function RightPane() {
+//   return (
+//     <>
+//       <Search />
+//     </>
+//   )
+// }
 
-export default RightPane
+// export default RightPane

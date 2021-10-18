@@ -1,36 +1,37 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-function leftPane() {
+function LeftPane() {
     return (
+      
         <div>
       <div >
-        <header>{twitter}</header>
+        <header>twitter</header>
 
-        <nav>
+        <nav className='navigation'>
           <NavLink to="/">
-            <span>{home} Home</span>
+            <span> Home</span>
           </NavLink>
           <NavLink to="/explore" >
-            <span>{explore} Explore</span>
+            <span> Explore</span>
           </NavLink>
           <NavLink to="/notifications">
-            <span>{notifications} Notifications</span>
+            <span> Notifications</span>
           </NavLink>
           <NavLink to="/messages">
-            <span>{messages} Messages</span>
+            <span> Messages</span>
           </NavLink>
           <NavLink to="/bookmarks">
-            <span>{bookmarks} Bookmarks</span>
+            <span> Bookmarks</span>
           </NavLink>
           <NavLink to="/lists">
-            <span>{lists} Lists</span>
+            <span> Lists</span>
           </NavLink>
           <NavLink to="/profile">
-            <span>{profile} Profile</span>
+            <span> Profile</span>
           </NavLink>
           <button className="more">
-            <span>{more} More</span>
+            <span> More</span>
           </button>
         </nav>
 
@@ -41,4 +42,4 @@ function leftPane() {
     
 
 
-export default leftPane
+export default LeftPane;
